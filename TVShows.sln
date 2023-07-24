@@ -14,9 +14,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.Infrastructure", "src\TVShows.Infrastructure\TVShows.Infrastructure.csproj", "{33751193-114A-47CA-92D2-D19402395D24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6631069E-7AC9-42EE-AF80-4260501DF19A}"
-	ProjectSection(SolutionItems) = preProject
-		test\TVShows.Application.Testing\TVShows.Application.Testing.csproj = test\TVShows.Application.Testing\TVShows.Application.Testing.csproj
-	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVShows.Application.Testing", "test\TVShows.Application.Testing\TVShows.Application.Testing.csproj", "{A2068EB4-1122-4DF6-91E5-85A926FD6563}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +39,10 @@ Global
 		{33751193-114A-47CA-92D2-D19402395D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33751193-114A-47CA-92D2-D19402395D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33751193-114A-47CA-92D2-D19402395D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2068EB4-1122-4DF6-91E5-85A926FD6563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2068EB4-1122-4DF6-91E5-85A926FD6563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2068EB4-1122-4DF6-91E5-85A926FD6563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2068EB4-1122-4DF6-91E5-85A926FD6563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +52,7 @@ Global
 		{AB3471FE-9ACB-4965-8055-7C897877FF3B} = {89143665-D8AC-46C8-9B4A-897B21EE9B40}
 		{1863DCD0-39F9-4F58-B140-15A5A19D5755} = {89143665-D8AC-46C8-9B4A-897B21EE9B40}
 		{33751193-114A-47CA-92D2-D19402395D24} = {89143665-D8AC-46C8-9B4A-897B21EE9B40}
+		{A2068EB4-1122-4DF6-91E5-85A926FD6563} = {6631069E-7AC9-42EE-AF80-4260501DF19A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C62F0519-7D7D-4C92-BB28-CB1D466A3339}
